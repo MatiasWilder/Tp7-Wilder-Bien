@@ -8,8 +8,8 @@ export default function App() {
   const [hover, setHover] = useState(false);
   return (<>
     <StatusBar style="light" />
-    <ImageBackground style={{flex: 4}} source={require("./assets/Fondo.jpg")} resizeMode="repeat">
-      <SafeAreaView style={{flex: 1, justifyContent: "center", paddingHorizontal: 20}}>
+    <ImageBackground style={{flex: 2}} source={require("./assets/Fondo.jpg")} resizeMode="repeat">
+      <SafeAreaView style={{flex: 4, justifyContent: "center", paddingHorizontal: 20}}>
     
         <View style={styles.container}>
           <Image source={require("./assets/Perfil.png")}/>
@@ -37,7 +37,7 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 0.6,
+    flex: 0.65,
     alignItems: 'center',
     justifyContent: 'center',
     borderWidth: 1,
@@ -48,24 +48,29 @@ const styles = StyleSheet.create({
   },
 
   input:{
-    height :30,
-    fontSize: 20
+    height :20,
+    fontSize: 20,
+    textAlign:'center'
   },
+
 
   boton: {
     borderWidth: 1,
     borderColor: "black",
     padding: 10,
     borderRadius: 15,
-    backgroundColor: "#000000"
+    backgroundColor: "#000000",
+    textalign:'center'
   },
   boton2: {
     marginTop: 5,
-    backgroundColor: "#000000"
+    backgroundColor: "#000000",
+    textalign:'center'
   },
   boton3: {
     marginTop: 5,
-    backgroundColor: "#000000"
+    backgroundColor: "#000000",
+    textalign:'center'
   },
 
 
