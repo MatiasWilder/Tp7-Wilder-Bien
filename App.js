@@ -55,6 +55,7 @@ const styles = StyleSheet.create({
 
 
   boton: {
+    marginTop:10,
     borderWidth: 1,
     borderColor: "black",
     padding: 10,
